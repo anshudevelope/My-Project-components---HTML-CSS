@@ -1,0 +1,157 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: #525a61;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.up
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.down
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.card1
+{
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.bxl-instagram
+{
+    font-size: 2.2em;
+    margin-top: 0.4em;
+    margin-left: 0.4em;
+    color: #cc39a4;
+}
+
+.card2
+{
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.bxl-twitter
+{
+    font-size: 2.2em;
+    margin-top: 0.3em;
+    margin-right: 0.4em;
+    color: #03a9f4;
+}
+
+.card3
+{
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.bxl-linkedin-square
+{
+    font-size: 2.2em;
+    margin-bottom: 0.3em;
+    margin-left: 0.4em;
+    color: #03a9f4;
+}
+
+.card4
+{
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.bxl-pinterest-alt
+{
+    font-size: 2.2em;
+    margin-bottom: 0.3em;
+    margin-right: 0.4em;
+    color: #f40333; 
+}
+
+.card1:hover
+{
+    cursor: pointer;
+    scale: 1.1;
+    background: #cc39a4;
+}
+
+.card1:hover .bxl-instagram
+{
+    color: #fff;
+}
+
+.card2:hover
+{
+    cursor: pointer;
+    scale: 1.1;
+    background: #03a9f4;
+}
+
+.card2:hover .bxl-twitter
+{
+    color: #fff;
+}
+
+.card3:hover
+{
+    cursor: pointer;
+    scale: 1.1;
+    background: #03a9f4;
+}
+
+.card3:hover .bxl-linkedin-square
+{
+    color: #fff;
+}
+
+.card4:hover 
+{
+    cursor: pointer;
+    scale: 1.1;
+    background: #a10202;
+}
+
+.card4:hover .bxl-pinterest-alt
+{
+    color: #fff;
+}
